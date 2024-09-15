@@ -1,0 +1,20 @@
+/* colors */
+
+/*
+60% of #c6393b -Primary
+30% of #393bc6 -Secondary
+10% of #3bc639 - Accent
+*/
+
+:root {
+
+/* var(--dominantColor) !important; */
+--dominantColor: #c6393b;
+
+/* var(--secondaryColor) !important; */
+--secondaryColor: #393bc6;
+
+/* var(--accentColor) !important; */
+--accentColor: #3bc639;
+
+}
