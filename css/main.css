@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: : smooth;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -22,4 +22,21 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link:hover{
     text-decoration: underline;
     text-decoration-thickness: 3px;
+}
+
+.footer-row {
+    background-color: var(--dominantColor) !important;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.footer-row a {
+    color: white;
+    text-decoration: none;
+}
+
+.fa-social-media, .fa-social-media a {
+    font-size: 25px !important;
+    padding-left: 12px;
+    padding-right: 12px;
 }
