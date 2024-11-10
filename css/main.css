@@ -99,11 +99,11 @@ blockquote cite:before{
 .cropped {
     width: 200px;
     height: 200px;
-    border-radius: 50px;
+    border-radius: 50%; 
     margin-top: 15px;
-    clip-path: circle(50% at 50% 50%);
-    border: 10px solid var(--accentColor) !important;
     margin: auto;
+    clip-path: circle(50% at 50% 50%);
+    box-shadow: 0 0 0 10px var(--accentColor);
     
 
 }
