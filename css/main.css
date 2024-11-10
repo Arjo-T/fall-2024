@@ -103,7 +103,7 @@ blockquote cite:before{
     margin-top: 15px;
     margin: auto;
     clip-path: circle(50% at 50% 50%);
-    box-shadow: 0 0 0 10px var(--accentColor);
+    border: 0 0 0 10px var(--accentColor);
     
 
 }
