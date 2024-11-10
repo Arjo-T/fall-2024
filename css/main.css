@@ -61,3 +61,14 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+blockquote{
+    font-family: georgia,serif;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0.25em 0px;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: var(--accentColor) !important;
+    
+}
