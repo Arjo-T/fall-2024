@@ -19,9 +19,9 @@ var dropDownChoicesVar = document.querySelector('#dropdown-choices');
 
 if (dropDownChoicesVar) {
 
-  dropDownChoicesVar.addEventListener('change', checkTshirt);
+  dropDownChoicesVar.addEventListener('change', checkOther);
 
-  function checkTshirt() {
+  function checkOther() {
 
     var dropDownChoices = document.getElementById('dropdown-choices').value;
     var custom = document.getElementById('custom');
